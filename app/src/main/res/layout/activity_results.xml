@@ -36,7 +36,25 @@
                 android:ems="10"
                 android:id="@+id/editText"
                 android:editable="true"
-                android:enabled="false" />
+                android:enabled="false"
+                android:layout_column="1"
+                android:layout_row="0" />
         </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView2"
+                android:text="asdasda" />
+        </GridLayout>
+
     </GridLayout>
 </GridLayout>

@@ -4,49 +4,72 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
+import android.os.Parcelable;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.view.LayoutInflater;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.os.Build;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ExpandableListView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.SpinnerAdapter;
+import android.widget.TextView;
+import android.widget.Toast;
 
-public class MainActivity extends ActionBarActivity{
+public class MainActivity extends Activity implements OnClickListener{
     String selected;
     Spinner Machines, Materials;
     ImageView MachineImg;
+    Button Send, Clear;
+    EditText Electro;
+    ArrayAdapter<CharSequence> machineTypes, materialType;
+    Context context;
+    Toast Empty;
+    Intent Data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Send = (Button) findViewById(R.id.sendBt);
+        Clear = (Button) findViewById(R.id.clearBt);
         Machines = (Spinner) findViewById(R.id.spinner);
         Materials = (Spinner) findViewById(R.id.spinner2);
         MachineImg = (ImageView) findViewById(R.id.imageView);
-        ArrayAdapter<CharSequence> machineTypes, materialType;
+        Electro = (EditText) findViewById(R.id.editText);
         machineTypes = ArrayAdapter.createFromResource(this,R.array.machines,android.R.layout.simple_spinner_item);
         materialType = ArrayAdapter.createFromResource(this, R.array.materials,android.R.layout.simple_spinner_item);
+        context = getApplicationContext();
+
         materialType.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         machineTypes.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Machines.setAdapter(machineTypes);
         Materials.setAdapter(materialType);
+        Materials.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                notEmpty();
+            }
 
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
         Machines.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 selected = Machines.getSelectedItem().toString();
+                notEmpty();
                 switch(selected){
                     case "ZSJ25":
                         MachineImg.setImageResource(R.drawable.zsj25);
@@ -73,8 +96,26 @@ public class MainActivity extends ActionBarActivity{
 
             }
         });
+        Send.setOnClickListener(this);
+
+        Clear.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Machines.setSelection(0);
+                Materials.setSelection(0);
+                Electro.setText("");
+            }
+        });
+
+        Electro.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+                notEmpty();
+                return false;
+            }
+        });
     }
-    @Override
+  /*  @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -93,21 +134,27 @@ public class MainActivity extends ActionBarActivity{
         }
         return super.onOptionsItemSelected(item);
     }
-
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    /*public static class PlaceholderFragment extends Fragment {
-
-        public PlaceholderFragment() {
+ */
+    /** Edited slash*/public boolean notEmpty(){
+        if(Machines.getSelectedItem().toString().length() != 0 && Materials.getSelectedItem().toString().length() != 0 && Electro.getText().toString().length() != 0){
+            Send.setEnabled(true);
+            return true;
+        }else{
+           // Send.setEnabled(false);
+            return false;
         }
+    }
 
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.activity_main, container, false);
-            return rootView;
+    public void onClick(View view) {
+        if(notEmpty()){
+            //float[] onLoadData = {(float)Machines.getSelectedItemId(), (float)Materials.getSelectedItemId(),Electro.getAlpha()};
+             String[] dane = {Machines.getSelectedItem().toString(),Materials.getSelectedItem().toString(), Electro.getText().toString()};
+             Data = new Intent(this,ResultsActivity.class);
+             Data.putExtra("dane",dane);
+             //Data.putExtra("Count","");
+            startActivity(Data);
+        }else{
+            Empty.makeText(context,"Proszę wypełnić wszystkie pola.",30).show();
         }
-    }*/
-
+    }
 }

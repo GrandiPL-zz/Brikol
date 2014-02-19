@@ -4,6 +4,7 @@
     <string name="app_name">Kalkulator</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
     <string-array name="machines">
         <item>ZSJ25</item>
         <item>ZSJ28</item>
@@ -11,5 +12,7 @@
         <item>ZSJ50</item>
         <item>ZSJ70</item>
     </string-array>
+
+    <string name="title_activity_results">ResultsActivity</string>
 
 </resources>

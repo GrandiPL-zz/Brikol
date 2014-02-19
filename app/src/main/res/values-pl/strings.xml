@@ -21,5 +21,8 @@
         <item>Słoma rzepaczana</item>
         <item>Słoma mieszana</item>
     </string-array>
+    <string name="Clear">Wyczyść</string>
+    <string name="Send">Oblicz</string>
     <string name="kWh">Koszt 1kWh (netto):</string>
+    <string name="Productivity">Wydajność (kg/h)</string>
 </resources>

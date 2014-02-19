@@ -2,13 +2,18 @@ package pl.Brikol.Kalkulator;
 
 import android.app.Activity;
 import android.os.Bundle;
-/**
- * Created by Kuba on 18.02.14.
- */
-public class ResultsActivity extends Activity{
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.os.Build;
 
-    protected void onCreate(Bundle savedInstanceState){
+public class ResultsActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
-        }
+    }
 }

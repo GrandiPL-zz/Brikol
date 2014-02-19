@@ -20,14 +20,14 @@
     <layouts>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
-          <device>Nexus 4</device>
-          <theme>@android:style/Theme.Holo.Light</theme>
+          <device>Galaxy s3</device>
+          <theme>@android:style/Theme.Holo.Dialog.NoActionBar</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml">
         <config>
-          <device>Nexus 4</device>
-          <theme>@android:style/Theme.Holo.Light</theme>
+          <device>Galaxy Nexus</device>
+          <theme>@style/AppTheme</theme>
         </config>
       </layout>
     </layouts>
@@ -111,17 +111,26 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="27" column="12" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="33" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1649">
-              <folding />
+            <state line="48" column="98" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.68209875" vertical-offset="0" max-vertical-offset="1326">
+              <folding>
+                <element signature="class#2137:2454" expanded="false" />
+                <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+                <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+                <element signature="class#2504:3757" expanded="false" />
+                <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+                <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+                <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,38 +138,43 @@
       <file leaf-file-name="ResultsActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/ResultsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="19" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding>
-                <element signature="docComment;class#ResultsActivity#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state line="148" column="17" selection-start="5489" selection-end="5489" vertical-scroll-proportion="0.0" vertical-offset="2012" max-vertical-offset="2635">
-              <folding>
-                <element signature="e#2415#2433#0" expanded="true" />
-                <element signature="e#3025#3038#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
           <provider selected="true" editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2652">
+              <folding>
+                <element signature="e#1556#1573#0" expanded="true" />
+                <element signature="e#2475#2493#0" expanded="true" />
+                <element signature="e#3085#3098#0" expanded="true" />
+                <element signature="e#4920#4935#0" expanded="true" />
+                <element signature="e#5155#5169#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_results.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml">
-          <provider editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="41" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-11.32" vertical-offset="193" max-vertical-offset="816">
+              <folding>
+                <element signature="e#1010#1032#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -794,11 +808,14 @@
         <option value="$PROJECT_DIR$/Kalkulator.iml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/values/attrs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/ResultsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_results.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/background.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/shaped_background.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -853,6 +870,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -969,7 +987,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="values-pl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1015,7 +1033,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1043,6 +1060,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="SearchEverywhereHistory" value="O" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1081,19 +1099,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1119,6 +1124,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1209,6 +1227,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -1255,10 +1278,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18317358" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" x="0" y="0" width="123" height="1552" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18317358" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" x="0" y="0" width="123" height="1552" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20127796" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1308,22 +1331,71 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Kalkulator.iml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="53" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="33" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="2006">
+          <folding>
+            <element signature="class#2137:2454" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+            <element signature="class#2504:3757" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="148" column="17" selection-start="5489" selection-end="5489" vertical-scroll-proportion="0.0" vertical-offset="2012" max-vertical-offset="2635">
+          <folding>
+            <element signature="e#1556#1573#0" expanded="true" />
+            <element signature="e#2475#2493#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#4920#4935#0" expanded="true" />
+            <element signature="e#5155#5169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalkulator.iml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="113" column="0" selection-start="4189" selection-end="4189" vertical-scroll-proportion="0.0" vertical-offset="1417" max-vertical-offset="2040">
           <folding>
-            <element signature="e#2415#2433#0" expanded="true" />
-            <element signature="e#3025#3038#0" expanded="true" />
+            <element signature="e#1556#1573#0" expanded="true" />
+            <element signature="e#2475#2493#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#4920#4935#0" expanded="true" />
+            <element signature="e#5155#5169#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
@@ -1336,7 +1408,16 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="33" selection-start="2345" selection-end="2345" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1649">
-          <folding />
+          <folding>
+            <element signature="class#2137:2454" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+            <element signature="class#2504:3757" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1348,16 +1429,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="113" column="0" selection-start="4188" selection-end="4188" vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="2040">
           <folding>
-            <element signature="e#2415#2433#0" expanded="true" />
-            <element signature="e#3025#3038#0" expanded="true" />
+            <element signature="e#1556#1573#0" expanded="true" />
+            <element signature="e#2475#2493#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#4920#4935#0" expanded="true" />
+            <element signature="e#5155#5169#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
@@ -1370,7 +1454,16 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="17" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1326">
-          <folding />
+          <folding>
+            <element signature="class#2137:2454" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+            <element signature="class#2504:3757" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,16 +1475,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="10" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1734">
           <folding>
-            <element signature="e#2415#2433#0" expanded="true" />
-            <element signature="e#3025#3038#0" expanded="true" />
+            <element signature="e#1556#1573#0" expanded="true" />
+            <element signature="e#2475#2493#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#4920#4935#0" expanded="true" />
+            <element signature="e#5155#5169#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
@@ -1404,7 +1500,16 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="13" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1411">
-          <folding />
+          <folding>
+            <element signature="class#2137:2454" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+            <element signature="class#2504:3757" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1416,16 +1521,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="10" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
           <folding>
-            <element signature="e#2415#2433#0" expanded="true" />
-            <element signature="e#3025#3038#0" expanded="true" />
+            <element signature="e#1556#1573#0" expanded="true" />
+            <element signature="e#2475#2493#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#4920#4935#0" expanded="true" />
+            <element signature="e#5155#5169#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
@@ -1438,7 +1546,16 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="13" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1411">
-          <folding />
+          <folding>
+            <element signature="class#2137:2454" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+            <element signature="class#2504:3757" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1450,16 +1567,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="10" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
           <folding>
-            <element signature="e#2415#2433#0" expanded="true" />
-            <element signature="e#3025#3038#0" expanded="true" />
+            <element signature="e#1556#1573#0" expanded="true" />
+            <element signature="e#2475#2493#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#4920#4935#0" expanded="true" />
+            <element signature="e#5155#5169#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
@@ -1472,7 +1592,16 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="13" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1411">
-          <folding />
+          <folding>
+            <element signature="class#2137:2454" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+            <element signature="class#2504:3757" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1484,22 +1613,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="15" column="0" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="357">
           <folding>
-            <element signature="e#2415#2433#0" expanded="true" />
-            <element signature="e#3025#3038#0" expanded="true" />
+            <element signature="e#1556#1573#0" expanded="true" />
+            <element signature="e#2475#2493#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#4920#4935#0" expanded="true" />
+            <element signature="e#5155#5169#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="17" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1020">
-          <folding />
+          <folding>
+            <element signature="class#2137:2454" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+            <element signature="class#2504:3757" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1511,35 +1652,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="15" column="0" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="357">
           <folding>
-            <element signature="e#2415#2433#0" expanded="true" />
-            <element signature="e#3025#3038#0" expanded="true" />
+            <element signature="e#1556#1573#0" expanded="true" />
+            <element signature="e#2475#2493#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#4920#4935#0" expanded="true" />
+            <element signature="e#5155#5169#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="7" selection-start="1306" selection-end="1557" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1513">
-          <folding />
+          <folding>
+            <element signature="class#2137:2454" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+            <element signature="class#2504:3757" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build/source/buildConfig/debug/pl/Brikol/Kalkulator/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="19" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0624235" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="842">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../qwe/app/src/main/res/values/strings.xml">
@@ -1561,23 +1707,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -1587,10 +1727,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="1121" column="13" selection-start="51167" selection-end="51167" vertical-scroll-proportion="0.33228347" vertical-offset="18829" max-vertical-offset="20196">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.41034484" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/classes.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/R.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9639">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/shaped_background.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="259" selection-end="259" vertical-scroll-proportion="0.20987654" vertical-offset="0" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#1556#1573#0" expanded="true" />
+            <element signature="e#2475#2493#0" expanded="true" />
+            <element signature="e#3085#3098#0" expanded="true" />
+            <element signature="e#4920#4935#0" expanded="true" />
+            <element signature="e#5155#5169#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1602,42 +1793,47 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml">
-      <provider editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-11.32" vertical-offset="193" max-vertical-offset="816">
+          <folding>
+            <element signature="e#1010#1032#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/ResultsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="19" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding>
-            <element signature="docComment;class#ResultsActivity#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-pl/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/Brikol/Kalkulator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="33" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="148" column="17" selection-start="5489" selection-end="5489" vertical-scroll-proportion="0.0" vertical-offset="2012" max-vertical-offset="2635">
+        <state line="48" column="98" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.68209875" vertical-offset="0" max-vertical-offset="1326">
           <folding>
-            <element signature="e#2415#2433#0" expanded="true" />
-            <element signature="e#3025#3038#0" expanded="true" />
+            <element signature="class#2137:2454" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2137:2454" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2137:2454" expanded="false" />
+            <element signature="class#2504:3757" expanded="false" />
+            <element signature="method#onItemSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#2504:3757" expanded="false" />
+            <element signature="method#notEmpty#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onClick#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>

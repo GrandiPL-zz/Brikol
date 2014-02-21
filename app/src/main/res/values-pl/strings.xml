@@ -24,5 +24,6 @@
     <string name="Clear">Wyczyść</string>
     <string name="Send">Oblicz</string>
     <string name="kWh">Koszt 1kWh (netto):</string>
-    <string name="Productivity">Wydajność (kg/h)</string>
+    <string name="Productivity">Wydajność (kg/h):</string>
+    <string name="tPerHour">Godzin na 1t:</string>
 </resources>
